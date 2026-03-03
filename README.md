@@ -9,13 +9,18 @@
 
 ## Setup 
 ### Requirements
-Docker and Docker Compose
+- Docker and Docker Compose
+- yarn
 ### Build and Run
 In the folder of the project
 
+```bash
+  yarn install
+```
+
 #### if you have makefile
 ```bash
-   make dev ## Start and build dev container
+  make dev ## Start and build dev container
 ```
 
 #### if you don't have makefile
